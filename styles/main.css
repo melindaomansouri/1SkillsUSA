@@ -19,7 +19,16 @@ header > h3 {
     text-align: center;
 }
 
-#parallax {
-    color: white;
+.parallax {
     background-image: url(../images/sunset_fishing%20copy.png);
+    min-height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax > p {
+    color: white;
 }
