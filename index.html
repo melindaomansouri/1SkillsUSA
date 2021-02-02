@@ -7,6 +7,52 @@
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/nav.css">
         <meta name="viewport" content="width=device-width, initial-scale=1,0">
+        <style>
+            body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.parallax {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax {
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+        </style>
     </head>
     <body>
         <header>
@@ -25,9 +71,9 @@
         </div>
         </header>
         <div class="parallax">
-            <div class="caption">
-                <span class="border">SCROLL DOWN</span>
-            </div>
-        </div>
+  <div class="caption">
+  <span class="border">SCROLL DOWN</span>
+  </div>
+</div>
     </body>
 </html>
