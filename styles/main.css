@@ -1,4 +1,7 @@
 body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -19,7 +22,7 @@ header > h3 {
     text-align: center;
 }
 
-.parallax {
+/*.parallax {
     background-image: url(../images/sunset_fishing%20copy.png);
     min-height: 100%;
     position: relative;
@@ -27,4 +30,34 @@ header > h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}*/
+
+.parallax{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
+.parallax {
+  background-image: url("../images/sunset_fishing.png");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
