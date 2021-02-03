@@ -1,17 +1,6 @@
-#navigation{
-    overflow: hidden;
-    float: left;
-    text-align: center;
-    padding: 90px 10px; /* The padding will shrink on scroll */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    transition: 0.4s;
-    z-index: 99;
-    
-}
+
 .dropbtn{
-    padding: 16px
+    padding: 16px;
     border: none;
     cursor: pointer;
 }
