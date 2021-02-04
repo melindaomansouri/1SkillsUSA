@@ -3,6 +3,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 
 header {
@@ -30,6 +31,9 @@ header > h3 {
 
 .section {
     color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
     background-color: black;
     padding: 15px;
     margin: -10px;
