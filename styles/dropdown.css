@@ -9,3 +9,12 @@
     outline: none;
     font-size: 15px;
 }
+.active, .collapsible:hover{
+    background-color: #ff3300;
+}
+.content{
+    padding: 0px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: black;
+}
