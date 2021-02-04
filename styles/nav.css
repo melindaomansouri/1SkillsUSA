@@ -26,9 +26,22 @@
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-.div{
+#div1{
     width: 35px;
     height: 5px;
     background-color: white;
     margin: 6px 0px;
 }
+#div2{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0px;
+}
+#div3{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0px;
+}
+
