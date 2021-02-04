@@ -31,3 +31,8 @@ h1 {
     padding: 15px;
     margin: -10px;
 }
+.contactinfo{
+    float: right;
+    margin-bottom: 15px;
+    margin-top: -10px
+}
