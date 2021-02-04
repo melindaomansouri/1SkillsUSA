@@ -26,7 +26,7 @@
 
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: white;}
 
 #div1{
     width: 35px;
@@ -46,7 +46,9 @@
     background-color: white;
     margin: 6px 0px;
 }
-
-.header{
-    
+.envolope{
+    color: white;
+    background-color: white;
 }
+
+
