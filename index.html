@@ -29,21 +29,27 @@ margin: 0;
   min-height: 100%;
 }
     
-.parallax-video{ 
-    height: 300px;
-    padding-bottom: 50px;
-    padding-top: 50px; 
+    
+.parallax-2 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-.parallax-video video{ 
-    min-width: 100%;
-    position: fixed;
-    top:0;
-    z-index: -999;
+.parallax-2 {
+  background-image: url(media_skillsusa21/media_skillsusa21/images-online/pier68_building.jpg);
+  min-height: 100%;
 }
     
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .parallax {
+    background-attachment: scroll;
+  }
+
+    .parallax-2 {
     background-attachment: scroll;
   }
 }
@@ -77,10 +83,8 @@ margin: 0;
         <div class="section">
             <p>Thank you for checking out Pier 68 Boat Rentals. We specialize in center console, pontoon boat, deck boat and fishing boat rentals. Our family has been renting boats since 1986. We offer daily rates as well as multi day discounts and weekly rates. We also have reasonable monthly rates during the winter for our snowbird friends.</p>
         </div>
-        <div class="parallax-video">
-            <video autoplay loop muted>
-             <source src="media/videoblocks-divers-jumping-off-boat-into-ocean-scuba-excursion-slow-motion_rtnzka0-n4_1080__D.mp4" type="mp4">
-            </video>
+        <div class="parallax-2">
+            
         </div>
         <div class="row">
             <div class="column">
