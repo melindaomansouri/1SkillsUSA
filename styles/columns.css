@@ -1,4 +1,10 @@
 .icon-bar {
     display: flex;
     flex-direction: row;
+    alig
 }
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
