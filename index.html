@@ -56,6 +56,7 @@ margin: 0;
         </style>
     </head>
     <body>
+        
         <header>
             <div class="header">
             <h1>Pier 68 Rentals</h1><br>
@@ -95,19 +96,35 @@ margin: 0;
             <div class="pontoon">
                 <img src="media_skillsusa21/media_skillsusa21/images-online/22deck_boat.jpg" alt="pontoon boat" width="200px" height="150px"><br>
                 <button type="button" class="collapsible">Pontoon Boats</button>
-                <div class="content"><p>info</p></div>
+                <div class="content"><p>Our pontoon boat rentals accommodate up to 10 people for a fun day of snorkeling, fishing, or just plain boating the waters of the Florida Keys.</p></div>
             </div>
             <div class="fishing">
                 <img src="media_skillsusa21/media_skillsusa21/images-online/fishing_boat.jpg" alt="fishing boat" width="200px" height="150px"><br>
                 <button type="button" class="collapsible">Fishing Boats</button>
-                <div class="content"><p>info</p></div>
+                <div class="content"><p>The fishing boats can get you to our great Florida Keys fishing spots by going under the Long Key Bridge, and you are fishing the Atlantic Ocean within 10 minutes of leaving our dock.</p></div>
             </div>
             <div class="kayaks">
                 <img src="images/010.jpg" alt="kayaks" width="200px" height="150px"><br>
                 <button type="button" class="collapsible">Kayaks</button>
-                <div class="content"><p>info</p></div>
+                <div class="content"><p>Kayak fun for the family is also available at our rental business, Pier 68. Pier 68 also rents quality single and tandem sit on top kayaks by the day, week or month. Kayak delivery is available and our rates are rock bottom. Our staff will get you set-up with all your paddles and lifejackets.</p></div>
             </div>
         </div>
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+        </script>
         
         
         <footer>
