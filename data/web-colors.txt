@@ -1,0 +1,2 @@
+red hex: #ff3300
+yellow hex: #ffff00
